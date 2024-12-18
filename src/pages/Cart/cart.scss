@@ -1,0 +1,37 @@
+.cart{
+    &-item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+        &-left{
+            width: 600px;
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+        }
+        &-img{
+            width: 50%;
+        }
+        &-right{
+            display: flex;
+            column-gap: 10px;
+        }
+        &-count{
+            display: flex;
+            column-gap: 10px;
+            align-items: center;
+            button{
+                padding: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+.cart {
+    background-color: #695559; 
+    color: #f57c00; 
+  }
+  
